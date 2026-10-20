@@ -34,11 +34,13 @@ export const profile = {
 };
 
 export const codingPlatforms = [
-  { label: 'LeetCode', href: 'https://leetcode.com/u/poovarasan-117' },
-  { label: 'CodeChef', href: 'https://www.codechef.com/users/kit28csa117' },
-  { label: 'Codeforces', href: 'https://codeforces.com/' },
   { label: 'HackerRank', href: 'https://www.hackerrank.com/profile/kit28_24cs117' },
-  { label: 'Codolio', href: 'https://codolio.com/' },
+  { label: 'CodeChef', href: 'https://www.codechef.com/users/kit28csa117' },
+  { label: 'LeetCode', href: 'https://leetcode.com/u/poovarasan-117' },
+  { label: 'GeeksforGeeks', href: 'https://www.geeksforgeeks.org/user/kit2824s4dp' },
+  { label: 'Codeforces', href: 'https://codeforces.com/profile/poovarasan420122' },
+  { label: 'AtCoder', href: 'https://atcoder.jp/users/Poovarasan' },
+  { label: 'Codolio', href: 'https://codolio.com/profile/Poovarasan21' },
 ];
 
 export const education = [

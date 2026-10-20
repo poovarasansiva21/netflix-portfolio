@@ -73,7 +73,7 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
 
       {/* portrait */}
       <motion.div
-        className="absolute inset-x-0 top-12 z-[2] flex h-[64svh] items-end justify-center sm:h-[70svh] lg:bottom-0 lg:left-auto lg:right-[3vw] lg:top-20 lg:h-auto lg:w-[54vw] xl:right-[6vw] xl:w-[48vw]"
+        className="absolute inset-x-0 top-14 z-[2] flex h-[52svh] items-end justify-center sm:h-[66svh] lg:bottom-0 lg:left-auto lg:right-[3vw] lg:top-20 lg:h-auto lg:w-[54vw] xl:right-[6vw] xl:w-[48vw]"
         style={{ y: imgY, scale: imgScale, opacity: fade }}
       >
         <motion.div
@@ -104,13 +104,13 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
       </motion.div>
 
       {/* readability gradients */}
-      <div aria-hidden className="absolute inset-x-0 top-[40svh] z-[3] h-[36svh] bg-gradient-to-b from-transparent via-ink/70 to-ink lg:hidden" />
+      <div aria-hidden className="absolute inset-x-0 top-[34svh] z-[3] h-[38svh] bg-gradient-to-b from-transparent via-ink/70 to-ink lg:hidden" />
       <div aria-hidden className="absolute inset-0 z-[3] hidden bg-[linear-gradient(90deg,var(--color-ink)_0%,rgba(7,7,10,0.7)_32%,transparent_58%)] lg:block" />
       <div aria-hidden className="absolute inset-x-0 bottom-0 z-[3] h-48 bg-gradient-to-t from-ink to-transparent" />
 
       {/* copy */}
       <motion.div
-        className="gutter relative z-[4] flex min-h-[100svh] flex-col justify-end pb-16 pt-[54svh] sm:pb-20 lg:max-w-[52vw] lg:justify-center lg:pb-0 lg:pt-24"
+        className="gutter relative z-[4] flex min-h-[100svh] flex-col justify-end pb-16 pt-[46svh] sm:pb-20 sm:pt-[54svh] lg:max-w-[52vw] lg:justify-center lg:pb-0 lg:pt-24"
         style={{ y: textY, opacity: fade }}
         variants={container}
         initial="hidden"
@@ -119,7 +119,7 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
         <motion.div variants={item} className="mb-3 text-lg">
           <SeriesMark />
         </motion.div>
-        <motion.h1 variants={item} className="font-display leading-[0.82] tracking-[0.02em] text-bone" style={{ fontSize: 'clamp(4rem, 12vw, 11rem)' }}>
+        <motion.h1 variants={item} className="font-display leading-[0.82] tracking-[0.02em] text-bone" style={{ fontSize: 'clamp(2.75rem, 13vw, 11rem)' }}>
           <span className="shimmer-text">{profile.firstName}</span>
         </motion.h1>
         <motion.p variants={item} className="mt-1 font-sans text-sm font-bold tracking-[0.62em] text-crimson-2 sm:text-base">

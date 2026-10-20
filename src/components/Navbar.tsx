@@ -55,16 +55,16 @@ export default function Navbar({ order, profileId, onSwitch }: { order: SectionI
 
   return (
     <motion.header
-      className="fixed inset-x-0 top-0 z-[60]"
+      className="fixed inset-x-0 top-0 z-[60] pt-[env(safe-area-inset-top)]"
       animate={{ y: hidden ? '-100%' : '0%' }}
       transition={{ duration: 0.45, ease: EASE }}
     >
       <div
-        className={`gutter flex h-16 items-center justify-between gap-6 transition-[background,backdrop-filter] duration-500 md:h-[72px] ${
+        className={`gutter flex h-16 items-center justify-between gap-3 transition-[background,backdrop-filter] duration-500 sm:gap-6 md:h-[72px] ${
           solid || mobileNav ? 'bg-ink/80 backdrop-blur-xl' : 'bg-gradient-to-b from-black/80 to-transparent'
         }`}
       >
-        <div className="flex items-center gap-8 lg:gap-10">
+        <div className="flex items-center gap-4 lg:gap-10">
           <button type="button" onClick={() => go('top')} className="text-[22px]" aria-label="Back to top">
             <SeriesMark />
           </button>

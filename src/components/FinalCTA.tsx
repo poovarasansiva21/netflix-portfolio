@@ -35,8 +35,8 @@ export default function FinalCTA({ onReplay }: { onReplay: () => void }) {
         The Next Episode
       </motion.p>
       <motion.h2
-        className="relative font-display leading-[0.85] text-bone"
-        style={{ fontSize: 'clamp(3.4rem, 13vw, 12rem)', letterSpacing: spacing, filter: blur, opacity }}
+        className="relative max-w-full font-display leading-[0.85] text-bone"
+        style={{ fontSize: 'clamp(2.6rem, 12vw, 12rem)', letterSpacing: spacing, filter: blur, opacity }}
       >
         TO BE CONTINUED…
       </motion.h2>
@@ -89,7 +89,7 @@ export default function FinalCTA({ onReplay }: { onReplay: () => void }) {
         </button>
       </div>
 
-      <footer className="absolute inset-x-0 bottom-0 px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] text-center">
+      <footer className="relative mt-auto w-full px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-16 text-center">
         <div className="mb-2 text-base">
           <SeriesMark />
         </div>
