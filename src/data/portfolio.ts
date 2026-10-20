@@ -34,10 +34,10 @@ export const profile = {
 };
 
 export const codingPlatforms = [
-  { label: 'LeetCode', href: 'https://leetcode.com/' },
-  { label: 'CodeChef', href: 'https://www.codechef.com/' },
+  { label: 'LeetCode', href: 'https://leetcode.com/u/poovarasan-117' },
+  { label: 'CodeChef', href: 'https://www.codechef.com/users/kit28csa117' },
   { label: 'Codeforces', href: 'https://codeforces.com/' },
-  { label: 'HackerRank', href: 'https://www.hackerrank.com/' },
+  { label: 'HackerRank', href: 'https://www.hackerrank.com/profile/kit28_24cs117' },
   { label: 'Codolio', href: 'https://codolio.com/' },
 ];
 
